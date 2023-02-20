@@ -2,6 +2,7 @@ const { connect } = require('getstream');
 const bcrypt = require('bcrypt');
 const StreamChat = require('stream-chat').StreamChat;
 const crypto = require('crypto');
+const { log } = require('console');
 
 require('dotenv').config();
 
@@ -14,7 +15,7 @@ const signup = async (req, res) => {
         const { fullName, username, password, phoneNumber } = req.body;
 
         const userId = crypto.randomBytes(16).toString('hex');
-
+        console.log(userId);
         const serverClient = connect(api_key, api_secret, app_id);
 
         const hashedPassword = await bcrypt.hash(password, 10);
