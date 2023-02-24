@@ -9400,10 +9400,10 @@
     "@stream-io/transliterate" "^1.5.5"
     "mml-react" "^0.4.7"
 
-"stream-chat@^8.0.0", "stream-chat@^8.3.0":
-  "integrity" "sha512-OW7Wqc9OD8P3ul1VhR0eWsqwlbB5N9wRbaOq1MphEVd0AJC1ql8gGV7u1iR9iCtXGhti+YiBxMd1cwGrpLpP0A=="
-  "resolved" "https://registry.npmjs.org/stream-chat/-/stream-chat-8.3.0.tgz"
-  "version" "8.3.0"
+"stream-chat@^8.0.0", "stream-chat@^8.4.0":
+  "integrity" "sha512-tSxoVub83x2lOZo5yZ4hhvGBaO57cJuFRIK9ldETx3e2RskspSJipa++fV4zrw137B9+vfKCBFesIQaqtPuoXA=="
+  "resolved" "https://registry.npmjs.org/stream-chat/-/stream-chat-8.4.0.tgz"
+  "version" "8.4.0"
   dependencies:
     "@babel/runtime" "^7.16.3"
     "@types/jsonwebtoken" "~9.0.0"
